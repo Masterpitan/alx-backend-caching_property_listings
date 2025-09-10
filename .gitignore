@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment
+.env
+.env.local
+*.env
+.env.*
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+myenv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# Byte-compiled / cache
+*.mo
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Migrations (optional: only if you plan to recreate often)
+# Uncomment if you don’t want to commit migration files
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Logs
+logs/
+*.log
+
+# Redis dump
+dump.rdb
+
+# Postgres
+*.sql
+*.db
+*.psql
+*.pgdata
+
+# Node (if frontend gets added later)
+node_modules/
