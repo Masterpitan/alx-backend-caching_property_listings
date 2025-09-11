@@ -8,3 +8,5 @@ from .models import Property
 def property_list(request):
     properties = Property.objects.all().values("title", "description", "price", "location", "created_at")
     return JsonResponse(list(properties), safe=False) #data
+
+# "return JsonResponse({"
